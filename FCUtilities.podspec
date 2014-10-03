@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.author = { 'Marco Arment' => 'arment@marco.org' }
   s.source = { :git => 'https://github.com/marcoarment/FCUtilities.git', :tag => s.version.to_s }
-  s.source_files  = 'FCUtilities/*.{h,m}'
+  s.source_files  = 'FCUtilities/FCReachability.{h,m}', 'FCUtilities/FCBasics.{h,m}'
   s.requires_arc = true
-  s.ios.deployment_target = '7.0'
+  s.ios.deployment_target = '6.0'
 end
